@@ -36,6 +36,13 @@ public class SerializeOwner {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * simply returns a String[] that contains the three tricks from DOG_TRICKS at the index of the three parameters
+	 * @param trick1
+	 * @param trick2
+	 * @param trick3
+	 * @return
+	 */
 	public static String[] makeTricks(int trick1, int trick2, int trick3) {
 		String[] tricks = new String[3];
 		tricks[0] = DOG_TRICKS[trick1];
